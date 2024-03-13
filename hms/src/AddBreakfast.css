@@ -1,0 +1,86 @@
+
+.ms41 {
+  background-image: url(https://as2.ftcdn.net/v2/jpg/02/92/20/37/1000_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Use viewport height to cover the entire screen */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-ms {
+  background-color: #cfa5a5;
+  padding: 45px;
+  padding-top: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Adjusted width for better responsiveness */
+  max-width: 600px; /* Set a maximum width to prevent it from becoming too wide */
+  background: url("https://e0.pxfuel.com/wallpapers/1000/420/desktop-wallpaper-background-for-restaurants-background-resturant.jpg") center/cover;
+}
+
+.additems-container-ms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.additems-options-ms {
+  width: 93%;
+  /* background: url("https://static.vecteezy.com/system/resources/previews/005/140/844/large_2x/brown-wooden-table-on-coffee-shop-or-restaurant-background-free-photo.jpg") center/cover; */
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.s2-ms3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ms label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ms input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.ms1 {
+  background-color: #28a745; /* Change to green for positive actions */
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.ms1:hover {
+  background-color: #54b86a; /* Darker green on hover */
+}
+
+.back-btn {
+  background-color: #6c757d; /* Gray for neutral actions */
+}
+
+.back-btn:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}

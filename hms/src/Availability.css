@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* { box-sizing: border-box; }
+
+.main {
+     overflow-x: hidden; }
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 25px 0;
+
+  background-color: #070707;
+  color: white;
+
+  font-family: Gelasio;
+  font-size: 18px;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+
+  width: auto;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 30s linear infinite /* infinite make reapeat the animation indefinitely */;
+}
+
+/* Create the animation */
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+
+.totalcontainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 183vh;
+    backdrop-filter: blur(5px); /* Adjust the blur value as needed */
+}
+
+.register-card {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff5722; /* Highlight color */
+}

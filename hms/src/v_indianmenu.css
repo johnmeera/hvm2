@@ -1,0 +1,92 @@
+/* Style for the entire IndianMenu component */
+.indian-menu-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #05021c;
+}
+
+/* Style for the headings (Indian Breakfast, Indian Lunch, Indian Dinner) */
+h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style for the menu items */
+.vv1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vv2 {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Style for the menu item images */
+.vv3 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Style for the menu item text (e.g., Dosa - ₹50) */
+.vv2 {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Style for the "Add to Cart" buttons */
+.vv {
+  margin-left: 5px;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the Cart section */
+.cart-container {
+  margin-top: 30px;
+}
+
+/* Style for the Cart heading */
+.cart-container h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style for the items in the Cart */
+.cart-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for individual items in the Cart */
+.cart-container li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+/* YourCart.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}

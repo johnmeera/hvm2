@@ -1,0 +1,61 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+} */
+
+.add {
+    background-color: #ffdab9; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 60%;
+  }
+  
+  .additems-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .additems-options {
+    width: 60%;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231229/pngtree-textured-turquoise-backdrop-enhancing-menu-cover-for-food-photography-image_13833509.png);
+  
+  }
+  
+  .su {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .su label {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 100px; /* Adjust the width based on your needs */
+  }
+  
+  .su input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .s {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .s:hover {
+    background-color: #45a049;
+  }
+  

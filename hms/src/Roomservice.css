@@ -1,0 +1,124 @@
+
+/* .order-form{
+  color: rgb(11, 16, 16);
+  background-color: rgb(204, 197, 211);
+  border: 10px solid #ccc;
+  padding: 60px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: left;
+  margin-left: 450px;
+}
+.side{
+   word-spacing: 90px;
+}
+.bold{
+    font-weight: bold;
+} */
+/* 
+.bill-container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bill-heading {
+  text-align: center;
+}
+
+.bill-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bill-details h2 {
+  margin-bottom: 10px;
+}
+
+.bill-details p {
+  margin: 5px 0;
+}
+
+.bill-buttons {
+  margin-top: 20px;
+}
+
+.bill-buttons button {
+  margin-right: 10px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bill-buttons button:hover {
+  background-color: #0056b3;
+} */
+
+
+.roomservice-container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.roomservice-container h1 {
+  text-align: center;
+}
+
+.date-time {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 200px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-result {
+  margin-bottom: 20px;
+}
+
+.roomservice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.roomservice-table th, .roomservice-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.roomservice-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.roomservice-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.roomservice-table tr:hover {
+  background-color: #ddd;
+}

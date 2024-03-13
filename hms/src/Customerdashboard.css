@@ -1,0 +1,163 @@
+.navbar30 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 69, 69);
+    height: 2cm;
+    transition: background-color 0.3s;
+}
+
+.navbar30 a {
+    color: lightgray;
+    text-decoration: none;
+    margin-left: 0cm;
+    margin-top: 0.5cm;
+    font-size: larger;
+    transition: color 0.3s;
+    padding: 100% 2rem;
+    margin: 0.7rem 0;
+}
+
+.navbar30 a:hover {
+    color:  rgb(70, 69, 69);
+    text-decoration: none;
+}
+
+.navbar30 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar30 li {
+    margin-left: 2cm; 
+    margin-top: 0.5cm;
+    font-size: larger;
+    transition: background-color 0.3s;
+}
+
+.navbar30 li:hover {
+    background-color:  rgb(70, 69, 69);
+    color: white;
+    border-bottom: 5px solid white; /* Adding an underline effect */
+    transition: background-color 0.3s, color 0.3s, border-bottom 0.3s; /* Adding transition effects */
+}
+
+
+
+/* Card styles */
+.card100 {
+    width: 39cm;
+    height: 3cm;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    background: none;
+    transition: background-color 0.3s, box-shadow 0.5s;
+}
+
+.cardbody {
+    background: url(https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-102132.jpg?w=2000&t=st=1707116618~exp=1707117218~hmac=7c352cf70d19be0af02385effcf4cdc4887ff02091623b34b5882cb1708cc825);
+}
+
+.card100 a.btn {
+    margin-left: 30cm;
+    width: 8cm;
+    margin-top: -1.5cm;
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+.card100:hover {
+    background-color: #f5f5f5;
+    border: 2px solid #333;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Increased box shadow */
+}
+
+.card100:hover a.btn {
+    background-color: #ddd;
+    border-color: #333;
+    color: #333;
+}
+
+/* card11 */
+.card11 {
+    width: 39cm;
+    height: 3cm;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+    background: none;
+    transition: background-color 0.3s, box-shadow 0.5s;
+}
+
+
+.card11 a.btn {
+    margin-left: 30cm;
+    width: 8cm;
+    margin-top: -1.5cm;
+    background-color: lightgrey;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+.card11:hover {
+    background-color: #f5f5f5;
+    border: 2px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increased box shadow */
+}
+
+.card11:hover a.btn {
+    background-color: #ddd;
+    border-color: #333;
+    color: #333;
+}
+
+.totalcontainer{
+   align-content: center;
+}
+.hover-effect:hover {
+    cursor: pointer; /* Change cursor to pointer */
+    /* Add any other hover effects here */
+}
+
+.menu30:hover {
+    background-color:#abb0b3; /* Change the background color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  
+
+.containern{
+    background-image: url("");
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .highlighted-blink {
+   
+    display: inline-block; /* Ensures the background color only covers the text */
+  }
+  
+  .blinking-text {
+    animation: blink 1s infinite; /* Blinking animation */
+  }
+  
+.blinking-star {
+    animation: blink 1s infinite; /* Blinking animation */
+  }
+  
+  .blinking-star::before {
+    content: "*"; /* Content for before pseudo-element */
+    animation: blink 1s infinite; /* Blinking animation */
+    margin-right: 0.2em; /* Adjust the spacing between the star and text */
+  }
+  
+  .blinking-star::after {
+    content: "*"; /* Content for after pseudo-element */
+    animation: blink 1s infinite; /* Blinking animation */
+    margin-left: 0.2em; /* Adjust the spacing between the text and star */
+  }

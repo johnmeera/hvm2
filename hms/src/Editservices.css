@@ -1,0 +1,27 @@
+.container-edit-formes {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    height: 370px;
+    width: 350px;
+  }
+.form-group-edites {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+.es {
+    display: block;
+    font-weight: bold;
+    color: rgb(37, 34, 34);
+  }
+
+.editservicees{
+    text-align: center;
+    color: rgb(37, 34, 34);
+}

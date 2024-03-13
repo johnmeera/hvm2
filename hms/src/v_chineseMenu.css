@@ -1,0 +1,86 @@
+/* chineseMenu.css */
+
+/* Container styles */
+.chinese-menu-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #05021c;
+}
+.vv4 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Section styles */
+h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* List styles */
+.vv1 {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Item styles */
+.vv2 {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Image styles */
+.vv3 {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  margin-right: 10px;
+  border-radius: 8px; /* Add rounded corners if desired */
+}
+
+/* Button styles */
+.vv {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+/* Cart container styles */
+.vv4:last-child {
+  margin-top: 30px;
+}
+
+/* Cart list styles */
+.vv4:last-child ul {
+  padding-left: 20px;
+}
+
+/* Cart item styles */
+.vv4:last-child li {
+  margin-bottom: 10px;
+}
+/* YourCart.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}

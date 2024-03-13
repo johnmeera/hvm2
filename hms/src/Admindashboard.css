@@ -1,0 +1,244 @@
+/* Admindashboard.css */
+
+/* Header and Footer */
+
+.footer30 {
+    background-color: #2c3e50; /* Dark Blue */
+    color: #ecf0f1; /* Light Gray/White */
+    width: calc(100% - 200px);
+    width: 33.4cm; /* Match width with sidebar */
+}
+
+.header30 {
+    background-color: #2c3e50; /* Dark Blue */
+    color: #ecf0f1; /* Light Gray/White */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    width: 33.7;
+    opacity: 0;
+    animation: fadeInHeader 0.8s ease-out forwards;
+    transition: opacity 0.3s ease; /* Add transition for opacity property */
+}
+
+@keyframes fadeInHeader {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Sidebar */
+.sidebar30 {
+    background-color: #2c3e50; /* Dark Gray Blue */
+    color: #ecf0f1; /* Light Gray/White */
+    height: 81vh; /* Set sidebar height to fill entire viewport height */
+    padding-top: 1em; /* Adjust padding */
+    position: fixed;
+    overflow: hidden;
+    transition: width 0.5s ease, padding 0.5s ease;
+}
+
+.sidebar30:hover {
+    width: 250px;
+    padding-left: 2em;
+}
+
+.aside1 {
+    padding: 16px;
+}
+
+.aside1 p {
+    margin: 0;
+    padding: 12px;
+    font-size: 18px;
+    color: #61dafb;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.aside1 p:hover {
+    background-color: #abb0b3;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer30 {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    bottom: 0.5cm;
+    width: calc(100% - 250px); /* Adjust width to accommodate sidebar expansion */
+    width: 41cm;
+    text-align: center;
+    opacity: 0;
+    animation: slideUpFooter 0.8s ease-out forwards;
+    
+}
+
+@keyframes slideUpFooter {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Cards */
+/* Cards */
+.card1,
+.card2,
+.card3 {
+    width: 22rem;
+    margin: 20px;
+    height: 4.5cm;
+    float: left;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform-style: preserve-3d; /* Ensure proper 3D rotation */
+    transition: transform 0.3s ease; /* Add transition effect for hover */
+    animation: rotateCards 1s ease-out; /* Apply rotation animation */
+}
+
+@keyframes rotateCards {
+    0% {
+        transform: rotateY(0deg); /* Start with no rotation */
+    }
+    100% {
+        transform: rotateY(360deg); /* Rotate 360 degrees */
+    }
+}
+
+.card1,
+.card2,
+.card3{
+    transition: transform 0.3s ease;
+}
+
+.card1:hover img,
+.card2:hover img,
+.card3:hover img {
+    filter: brightness(80%); /* Reduce brightness of the image on hover */
+}
+.card-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card-body {
+    margin-top: 1.5cm;
+}
+
+/* Background Images */
+.card1 {
+    background-image: url('https://www.colorbook.io/imagecreator.php?hex=2c3e50&width=1080&height=1920&text=%201080x1920');
+}
+
+.card2 {
+    background-image: url('https://img.freepik.com/free-photo/painted-concrete-background_53876-92961.jpg?w=2000&t=st=1706345924~exp=1706346524~hmac=ff23c3598fd1734097cd257a70e76e8c772c9e929fe55287c7552edb740093c1');
+}
+
+
+
+/* Table */
+.table,
+th,
+td {
+    border: 1px solid #bdc3c7; /* Light Gray */
+    background-color: #ecf0f1; /* Light Gray */
+    color: #2c3e50; /* Dark Blue */
+    width: 28cm;
+    height: auto;
+    vertical-align: middle; /* Align text vertically in the middle */
+    line-height: 1cm; /* Adjust line height for better vertical centering */
+    text-align: center;
+}
+
+/* Links */
+.aside1 p {
+    color: #3498db; /* Blue */
+}
+
+.aside1 p:hover {
+    background-color: #bdc3c7; /* Light Gray */
+}
+
+/* Example for responsive design */
+@media only screen and (max-width: 600px) {
+    main {
+        margin-left: 0;
+    }
+
+    .sidebar30 {
+        display: none;
+    }
+}
+
+.img31 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Admindashboard.css */
+
+/* Cards */
+.card1:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+}
+.card3:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+}
+
+.create-account-button {
+    margin-left: 12cm;
+    margin-top: -5cm;
+    /* Add additional styles if needed */
+}
+
+.food-options li:hover {
+    background-color: lightgray; /* Change background color on hover */
+    width:  fit-content;
+  }
+
+  .restaurant-options {
+    width: 12cm;
+    margin: 10px;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(186, 69, 69, 0.1);
+    height: 11cm;
+    margin-left: 15cm;
+    margin-top: 2cm;
+    background-image: url(https://www.colorbook.io/imagecreator.php?hex=2c3e50&width=1080&height=1920&text=%201080x1920);
+  }
+  .s1 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .s2 {
+    padding: 8px;
+    border-bottom: 1px solid azure;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .s2:hover {
+    background-color: #f0f0f0;
+    
+  }

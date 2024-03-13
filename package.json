@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "fa-icons": "^0.2.0",
+    "fas": "^0.3.6",
+    "moment": "^2.30.1",
+    "recharts": "^2.12.1"
+  }
+}

@@ -1,0 +1,36 @@
+.add-service-formabas {
+ width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 155px;
+  left: 500px;
+  height: 295px;
+}
+
+.form-groupabas {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.labelabas {
+  display: block;
+  font-weight: bold;
+  color: rgb(37, 34, 34);
+}
+
+.abas {
+  
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  height: 35px;
+}
+.addnewserviceabas{
+  margin-left: 40px;
+  
+}

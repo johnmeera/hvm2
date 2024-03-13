@@ -1,0 +1,112 @@
+/* 
+.bill-container {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+}
+
+.bill-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.left1,
+.left2,
+.left {
+  margin-bottom: 5px;
+}
+
+.takeaway-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.takeaway-table th,
+.takeaway-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.takeaway-table th {
+  background-color: #f2f2f2;
+}
+
+.additional {
+  margin-bottom: 20px;
+}
+
+.additional p {
+  margin: 5px 0;
+}
+
+.bill-buttons {
+  text-align: center;
+}
+
+.print-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background-color: #0056b3;
+}
+.time{
+  margin-left: 950px;
+} */
+
+
+.takeaway-container {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.takeaway-container h2 {
+  text-align: center;
+}
+
+.takeaway-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.takeaway-table th,
+.takeaway-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.takeaway-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.takeaway-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.takeaway-table tr:hover {
+  background-color: #ddd;
+}
